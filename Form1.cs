@@ -18,7 +18,7 @@ namespace MatchingGame
         Label secondClicked = null;
 
 
-        // Use this Random object to choose random icons for the squares
+        
         Random random = new Random();
 
         // Each of these letters is an interesting icon  A
