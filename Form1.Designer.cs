@@ -1,5 +1,5 @@
 ﻿
-namespace MatchingGam
+namespace MatchingGame
 {
     partial class Form1
     {
