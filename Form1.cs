@@ -21,7 +21,7 @@ namespace MatchingGame
         
         Random random = new Random();
 
-        // Each of these letters is an interesting icon  A
+      
         // in the Webdings font,
         // and each icon appears twice in this list
         List<string> icons = new List<string>()
