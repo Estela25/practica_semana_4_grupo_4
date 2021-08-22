@@ -97,8 +97,8 @@ namespace MatchingGame
                 // so the player can click another icon
                 if (firstClicked.Text == secondClicked.Text)
                 {
-                    firstClicked = null;
-                    secondClicked = null;
+                    primer clic = null;
+                    segundo clic = null;
                     return;
                 }
 
