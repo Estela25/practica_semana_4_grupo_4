@@ -40,7 +40,7 @@ namespace MatchingGame
         {
             // El TableLayoutPanel tiene 16 labels,
             // y el icono list tiene 16 iconos,
-            // so an icon is pulled at random from the list
+            // por lo que se extrae un icono al azar de la lista
             // and added to each label
             foreach (Control control in tableLayoutPanel1.Controls)
             {
