@@ -46,7 +46,6 @@ namespace MatchingGame
                 {
                     int randomNumber = random.Next(icons.Count);
                     iconLabel.Text = icons[randomNumber];
-                    // iconLabel.ForeColor = iconLabel.BackColor;
                     icons.RemoveAt(randomNumber);
                 }
             }
@@ -67,10 +66,7 @@ namespace MatchingGame
             Label clickedLabel = sender as Label;
 
             if (clickedLabel != null)
-            {
-                // If the clicked label is black, the player clicked
-                // an icon that's already been revealed --
-                // ignore the click
+            { 
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
