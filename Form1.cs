@@ -39,7 +39,7 @@ namespace MatchingGame
         /// </summary>
         private void AssignIconsToSquares()
         {
-            // The TableLayoutPanel has 16 labels,
+            // El TableLayoutPanel tiene 16 labels,
             // and the icon list has 16 icons,
             // so an icon is pulled at random from the list
             // and added to each label
