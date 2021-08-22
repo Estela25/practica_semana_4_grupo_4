@@ -12,10 +12,10 @@ namespace MatchingGame
 {
     public partial class Form1 : Form
     { 
-        Label firstClicked = null;
+        Label hizo clic por primera vez  = null;
 
         
-        Label secondClicked = null;
+        Label segundo clic = null;
 
 
         // Use this Random object to choose random icons for the squares
@@ -33,7 +33,7 @@ namespace MatchingGame
         /// <summary>
         /// Assign each icon from the list of icons to a random square
         /// </summary>
-        private void AssignIconsToSquares()
+        vacio privado Asignaciones ToSquares()
         {
             // El TableLayoutPanel tiene 16 labels,
             // y el icono list tiene 16 iconos,
@@ -52,15 +52,15 @@ namespace MatchingGame
         }
         public Form1()
         {
-            InitializeComponent();
+            InicializarComponent();
 
-            AssignIconsToSquares();
+            Asignaciones a cuadrados();
         }
 
         private void label_Click(object sender, EventArgs e)
         {
 
-            if (timer1.Enabled == true)
+            if (temporizador1.Enabled == true)
                 return;
 
             Label clickedLabel = sender as Label;
@@ -76,7 +76,7 @@ namespace MatchingGame
                 // clicked, change its color to black, and return
                 if (firstClicked == null)
                 {
-                    firstClicked = clickedLabel;
+                    primer clic = clickedLabel;
                     firstClicked.ForeColor = Color.Black;
 
                     return;
