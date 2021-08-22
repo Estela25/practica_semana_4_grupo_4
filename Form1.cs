@@ -17,7 +17,7 @@ namespace MatchingGame
         Label firstClicked = null;
 
         // secondClicked points to the second Label control 
-        // that the player clicks
+        // that the player clicksssssss
         Label secondClicked = null;
 
 
