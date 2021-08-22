@@ -39,7 +39,7 @@ namespace MatchingGame
         private void AssignIconsToSquares()
         {
             // El TableLayoutPanel tiene 16 labels,
-            // and the icon list has 16 icons,
+            // y el icono list tiene 16 iconos,
             // so an icon is pulled at random from the list
             // and added to each label
             foreach (Control control in tableLayoutPanel1.Controls)
