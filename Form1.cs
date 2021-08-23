@@ -113,10 +113,8 @@ namespace MatchingGame
         /// <param name="e"></param>
         private void timer1_Tick(object sender, EventArgs e)
         {
-            // Stop the timer
             timer1.Stop();
 
-            // Hide both icons
             firstClicked.ForeColor = firstClicked.BackColor;
             secondClicked.ForeColor = secondClicked.BackColor;
 
