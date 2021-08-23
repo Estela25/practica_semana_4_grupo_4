@@ -61,10 +61,6 @@ namespace MatchingGame
                 if (clickedLabel.ForeColor == Color.Black)
                     return;
 
-                // If firstClicked is null, this is the first icon 
-                // in the pair that the player clicked,
-                // so set firstClicked to the label that the player 
-                // clicked, change its color to black, and return
                 if (firstClicked == null)
                 {
                     primer clic = clickedLabel;
