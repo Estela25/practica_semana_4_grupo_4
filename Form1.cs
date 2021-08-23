@@ -35,10 +35,6 @@ namespace MatchingGame
         /// </summary>
         vacio privado Asignaciones ToSquares()
         {
-            // El TableLayoutPanel tiene 16 labels,
-            // y el icono list tiene 16 iconos,
-            // por lo que se extrae un icono al azar de la lista
-            // y agregado a cada label
             foreach (Control control in tableLayoutPanel1.Controls)
             {
                 Label iconLabel = control as Label;
