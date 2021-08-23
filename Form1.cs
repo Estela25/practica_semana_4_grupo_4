@@ -127,17 +127,13 @@ namespace MatchingGame
             firstClicked.ForeColor = firstClicked.BackColor;
             secondClicked.ForeColor = secondClicked.BackColor;
 
-            // Reset firstClicked and secondClicked 
-            // so the next time a label is
-            // clicked, the program knows it's the first click
+
             firstClicked = null;
             secondClicked = null;
         }
 
         private void CheckForWinner()
         {
-            // Go through all of the labels in the TableLayoutPanel, 
-            // checking each one to see if its icon is matched
             foreach (Control control in tableLayoutPanel1.Controls)
             {
                 Label iconLabel = control as Label;
@@ -148,10 +144,6 @@ namespace MatchingGame
                         return;
                 }
             }
-
-            // If the loop didn’t return, it didn't find
-            // any unmatched icons
-            // That means the user won. Show a message and close the form
             MessageBox.Show("Has encontrado todas las parejas", "Felicidades");
             Close();
         }
