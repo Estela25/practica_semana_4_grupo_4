@@ -30,9 +30,6 @@ namespace MatchingGame
         "b", "b", "v", "v", "w", "w", "z", "z"
     };
 
-        /// <summary>
-        /// Assign each icon from the list of icons to a random square
-        /// </summary>
         vacio privado Asignaciones ToSquares()
         {
             foreach (Control control in tableLayoutPanel1.Controls)
