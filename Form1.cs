@@ -22,8 +22,6 @@ namespace MatchingGame
         Random random = new Random();
 
       
-        // in the Webdings font,
-        // and each icon appears twice in this list
         List<string> icons = new List<string>()
     {
         "!", "!", "N", "N", ",", ",", "k", "k",
